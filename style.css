@@ -1,0 +1,26 @@
+/* navbar */
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 12px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #FFCC2A;
+        width: 50%;
+        margin: auto;
+    }
+ }
